@@ -46,42 +46,155 @@ const Blog = () => {
   );
 
   const sections = [
-    {
-      title: "Introduction",
-      text: (
-        <>
-          Finding work or hiring someone shouldn’t be this hard, yet it often is. Posting in multiple groups, answering random calls, and dealing
-          with people who aren’t serious wastes your time and energy.
-          <br />
-          <br />
-          <TichiLink /> changes this. Whether you’re a student offering tutoring, a freelancer designing logos, or someone renting out a PG bed,{" "}
-          <TichiLink /> makes the process simple: post your service, keep your contact private, and connect only with people who genuinely want what
-          you offer.
-        </>
-      ),
-    },
-    {
-      title: "What is Tichi?",
-      text: (
-        <>
-          <TichiLink /> is a mobile-first platform built for real-life services. You can list what you offer, and people who are interested can
-          unlock your contact details for a small fee. This way, both sides know the interaction is intentional and worth the effort.
-          <br />
-          <br />
-          You can use <TichiLink /> for:
-          <ul className="list-disc pl-6">
-            <li>Part-time gigs</li>
-            <li>Home services</li>
-            <li>Rentals or sales</li>
-            <li>Tutoring and academic help</li>
-            <li>Event support and small businesses</li>
-          </ul>
-          No spam. No unnecessary crowd. Just purposeful connections.
-        </>
-      ),
-    },
-    // ... rest of your sections stay exactly the same
-  ];
+  {
+    title: "Introduction",
+    text: (
+      <>
+        Finding work or hiring someone shouldn’t be this hard, yet it often is.
+        Posting in multiple groups, answering random calls, and dealing with
+        people who aren’t serious wastes your time and energy.
+        <br />
+        <br />
+        <TichiLink /> changes this. Whether you’re a student offering tutoring,
+        a freelancer designing logos, or someone renting out a PG bed,{" "}
+        <TichiLink /> makes the process simple: post your service, keep your
+        contact private, and connect only with people who genuinely want what
+        you offer.
+      </>
+    ),
+  },
+  {
+    title: "What is Tichi?",
+    text: (
+      <>
+        <TichiLink /> is a mobile-first platform built for real-life services.
+        You can list what you offer, and people who are interested can unlock
+        your contact details for a small fee. This way, both sides know the
+        interaction is intentional and worth the effort.
+        <br />
+        <br />
+        You can use <TichiLink /> for:
+        <ul className="list-disc pl-6">
+          <li>Part-time gigs</li>
+          <li>Home services</li>
+          <li>Rentals or sales</li>
+          <li>Tutoring and academic help</li>
+          <li>Event support and small businesses</li>
+        </ul>
+        No spam. No unnecessary crowd. Just purposeful connections.
+      </>
+    ),
+  },
+  {
+    title: "How Tichi Works",
+    text: (
+      <>
+        Many platforms let you post, but they expose your number publicly or
+        flood you with irrelevant messages. <TichiLink /> works differently; it’s
+        designed to protect your privacy while making connections more
+        effective.
+        <ol className="list-decimal pl-6">
+          <li>
+            <strong>Post a Service</strong> – Describe what you offer, add a
+            price or images, and publish it. Example:
+            <ul className="list-disc pl-6">
+              <li>“PG Bed Available – ₹6,000/month”</li>
+              <li>“Event Poster Design – ₹200/poster”</li>
+              <li>“Class 12 Math Tutoring – ₹500/hour”</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Stay Private</strong> – Your phone number is hidden by
+            default, so no random calls or messages.
+          </li>
+          <li>
+            <strong>Let Only Interested People Unlock You</strong> – When someone
+            is ready to talk business, they pay ₹5–₹20 to unlock your contact.
+            This ensures they’re serious.
+          </li>
+          <li>
+            <strong>Track Every Contact</strong> – You can see who unlocked your
+            info, when they did it, and what post they were interested in.
+          </li>
+        </ol>
+      </>
+    ),
+  },
+  {
+    title: "Why Tichi is Different",
+    text: (
+      <>
+        Traditional ways of offering or finding services usually mean sharing
+        your number publicly, joining endless groups, or dealing with vague
+        messages from people who aren’t ready to commit. This wastes time,
+        creates confusion, and leads to missed genuine opportunities.
+        <br />
+        <br />
+        <TichiLink /> removes that frustration by putting you in control of your
+        connections and keeping everything organized.
+        <br />
+        <br />
+        <strong>What Others Do:</strong>
+        <ul className="list-disc pl-6">
+          <li>Publicly share numbers → invites spam.</li>
+          <li>Post randomly in groups → wastes time.</li>
+          <li>No way to check if a person is serious.</li>
+          <li>Hard to track conversations and leads.</li>
+        </ul>
+        <strong>What Tichi Does:</strong>
+        <ul className="list-disc pl-6">
+          <li>Keeps your number private until you approve contact.</li>
+          <li>Stores all listings in an organized, searchable format.</li>
+          <li>Filters out casual browsers through small unlock fees.</li>
+          <li>Lets you track every lead for better follow-up.</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    title: "Real-Life Use Cases",
+    text: (
+      <>
+        You don’t need to imagine complicated scenarios. <TichiLink /> works for
+        everyday needs.
+        <ul className="list-disc pl-6">
+          <li>
+            Renting a PG bed → Someone nearby looking for a room unlocks your
+            contact and calls you.
+          </li>
+          <li>
+            Offering online tutoring → Students find your post and message you
+            only when they’re ready to start learning.
+          </li>
+          <li>
+            Running a side hustle like logo design → Post your service once and
+            let clients come to you, instead of pitching in multiple groups.
+          </li>
+          <li>
+            Helping others find work → List a local cook, cleaner, or handyman
+            and help them get genuine clients.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    title: "Who Should Use Tichi?",
+    text: (
+      <>
+        If you have something to offer or need something done,{" "}
+        <TichiLink /> is for you.
+        <ul className="list-disc pl-6">
+          <li>Students with skills or items to rent/sell</li>
+          <li>Freelancers looking for more clients</li>
+          <li>Locals renting out rooms, beds, or equipment</li>
+          <li>Households hiring part-time or full-time help</li>
+          <li>Event managers, café owners, or tutors</li>
+        </ul>
+      </>
+    ),
+  },
+];
 
   return (
     <>
